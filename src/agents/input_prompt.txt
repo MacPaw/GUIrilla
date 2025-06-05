@@ -1,0 +1,19 @@
+Analyze the given macOS application accessibility screen information and follow these steps:
+
+Determine the type and purpose of the application based on the provided elements and descriptions.
+Identify all AXTextField elements present in the structure.
+For each AXTextField:
+a. Infer its specific purpose within the application context.
+b. Consider what current user would input in this field based on accessibility and a common human response.
+c. Generate an appropriate example input based on the field's likely function and the app's overall purpose.
+Output a JSON object where:
+
+Keys are the integer IDs of the AXTextField elements
+Values are realistic and based on the content of the screen. 
+
+Provide only the JSON object as output, without any additional text or explanation.
+Example outputs:
+{7: "Yellow Submarine"} // For a music app song search
+{12: "John", 15: "Smith", 21: "07580198241"} // For a contacts app name field
+{8: "main"} // For a search bar in IDE with a Python project looking for main.py
+Note: Ensure that the chosen inputs are relevant to the application's purpose and represent realistic user interactions across various types of macOS applications.

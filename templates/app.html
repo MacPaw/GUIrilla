@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ app.name }}</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #f9f9f9;
+        }
+        .timestamp { color: #666; font-size: 0.9em; margin-top: 10px; }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 15px 0;
+        }
+        a { 
+            padding: 8px 16px;
+            background-color: #dcdcdc;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #000000;
+            transition: background-color 0.3s;
+
+            display: inline-block;
+            width: 150px; /* Set a fixed width */
+            text-align: center; /* Center the text */
+        }
+        a:hover { background-color: #cecdcd; }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='../index.html'">&#8592; Back</button>
+    <h1>{{ app.name }}</h1>
+    <ul>
+        <li><a href="../../../../{{ app_root }}/data.json">Graph JSON</a></li>
+        <li><a href="../../../../{{ app_root }}/graph.svg">Graph SVG</a></li>
+        <li><a href="images.html">View Images</a></li>
+    </ul>
+    <div class="timestamp">Elapsed Time: {{ app.processing_time }}s</div>
+    <div class="timestamp">Last Modified: {{ app.last_modified }}</div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Weather,com.apple.weather,,os
+Reminders,com.apple.reminders,,os

@@ -1,0 +1,59 @@
+Given the accessibility screen information, organize the elements in a click order, considering irreversible actions and relationships between elements. Assign highest priority to the elements in popovers, content switch buttons, window control buttons.  
+Provide the output in JSON format with nested dictionaries for each group including element IDs (integer).  
+Focus on categorizing by the impact of changing screens or making irreversible actions that disable other actions (ex. delete email must go after edit email).  
+Accessibility information may be partially missing or incorrect, so you can derive the true element type from the description.  
+
+You focus on grouping by impact of changing screen and irreversible actions, rather than semantic meaning.  
+Output JSON, maximum number of categories is 8. Element ids are always stored in lists.  
+
+You MUST include all element ids from the input in the output.
+
+When encountering a large number of elements that represent dynamic content (e.g., a list of emails, notes, or items that may change between sessions), group them under a category named "dynamic_{element_type}".  
+For repeated options where only one choice is necessary (e.g., time, date, categories), or elements with the same purpose (e.g., multiple contacts or emails), group them under "repeated_{element_type}". The agent should not group sets of actions or unrelated elements into the same group.
+
+Static elements with similar structure (like menu buttons) should not be listed in the "dynamic_" or "repeated_" categories.
+
+All elements from input MUST be included in the output.  
+
+In some cases include these special flags:  
+- "login_page": true - If indicators of a login page are present (e.g., username/email field, password field, or login button).  
+- "system_access_required": true - If user needs to allow access to system requirements, system permissions, administrative access, system restart, or similar high-level system operations and human interference is needed.  
+
+<examples>
+Example 1: Complex App with Repeated and Dynamic Elements
+Input: An app screen includes:
+    Menu buttons (IDs: 1, 2, 3)
+    A list of emails (IDs: 4, 5, 6, 7)
+    Time selection dropdown (IDs: 8-31, representing hours 0-23)
+    A popover with delete and save buttons (IDs: 32, 33).
+
+Output:
+{  
+    "action_order": [  
+        {"menu_buttons": [1, 2, 3]},  
+        {"dynamic_emails": [4, 5, 6, 7]},  
+        {"repeated_time_selection": [8, 9, 10, ..., 31]},  
+        {"popover_buttons": [32, 33]}  
+    ],  
+    "login_page": false,  
+    "system_access_required": false  
+}  
+
+Example 2: Login Page with Irreversible Actions
+Input: A login screen includes:
+
+    Username field (ID: 1)
+    Password field (ID: 2)
+    Login button (ID: 3)
+    A settings menu with "delete account" (ID: 4).
+
+Output:
+{  
+    "action_order": [  
+        {"login_elements": [1, 2, 3]},  
+        {"account_settings": [4]}  
+    ],  
+    "login_page": true,  
+    "system_access_required": false  
+}  
+</examples>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Dashboard</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #f9f9f9;
+        }
+        .app {
+            position: relative;
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background-color: #fff;
+            transition: box-shadow 0.3s, transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .app:hover { 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+            transform: translateY(-2px);
+        }
+        .app h2 { 
+            margin: 0 0 10px 0; 
+            font-size: 1.5em;
+        }
+        .details { 
+            color: #666; 
+            font-size: 0.9em; 
+            margin-top: 5px; 
+        }
+        .applications {
+            display: flex;
+            flex-direction: column;
+        }
+        /* Ensure the <a> covers the entire .app div */
+        .app-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: inherit;
+            z-index: 1;
+        }
+        /* Optional: Add a focus outline for accessibility */
+        .app-link:focus {
+            outline: 2px solid #007BFF;
+        }
+    </style>
+</head>
+<body>
+    {% if applications %}
+    <h1>Applications Overview</h1>
+    <h3>Total applications: {{ applications|length }}</h3>
+    <h3>Total time: {{ total_time_str }}s</h3>
+    <div class="applications">
+        {% for app in applications %}
+        <div class="app">
+            <a href="{{ app['bundle_name'] }}/index.html" class="app-link" aria-label="View details for {{ app['name'] }}">
+                <!-- Empty content to make the entire div clickable -->
+            </a>
+            <h2>{{ app['name'] }}</h2>
+            <div class="details">Bundle name: {{ app['bundle_name'] }}</div>
+            <div class="details">Number of images: {{ app['images']|length }}</div>
+            <div class="details">Last Modified: {{ app['last_modified'] }}</div>
+            <div class="details">Elapsed Time: {{ app['processing_time'] }}s</div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>No applications found.</p>
+    {% endif %}
+</body>
+</html>

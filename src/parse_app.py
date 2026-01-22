@@ -17,6 +17,9 @@ import generate_dashboard
 from helpers.uielement import UIElement, element_attribute
 from action_performer import ActionManager, ActionPerformer
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Configure logging at the start of the script
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"

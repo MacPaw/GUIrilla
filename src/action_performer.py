@@ -24,7 +24,7 @@ from time import sleep
 logger = logging.getLogger(__name__)
 
 sentry_sdk.init(
-    dsn="https://d9029ec11325e79e74f8f31c48352909@o36975.ingest.us.sentry.io/4508206814396416",
+    dsn=os.getenv("SENTRY_CLIENT_PUBLIC_KEY_URL"),
     traces_sample_rate=1.0,
     profiles_sample_rate=1.0,
 )

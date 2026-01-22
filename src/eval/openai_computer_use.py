@@ -213,9 +213,7 @@ def main():
 
 
 if __name__ == "__main__":
-    with open("config_open_ai.env", "r") as f:
-        api_key = f.read().strip()
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     logs_dir = get_log_dir("openai")
     logger = setup_json_logger(os.path.join(logs_dir, "logs.json"))

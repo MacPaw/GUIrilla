@@ -1,10 +1,9 @@
+import os
 from openai import OpenAI
 import json
 from agents.utilities import pretty_print_xml
 
-with open("config_open_ai.env", "r") as f:
-    api_key = f.read().strip()
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 with open("src/agents/input_prompt.txt", "r") as f:

@@ -10,12 +10,12 @@ This repository contains the codebase for the paper **"GUIrilla: A Scalable Fram
 
 ## Dataset and models
 
-[GUIrilla-Task dataset on HuggingFace](https://huggingface.co/datasets/MacPaw/GUIrilla).
+[GUIrilla-Task dataset on HuggingFace](https://huggingface.co/datasets/GUIrilla/GUIrilla-Task).
 
 **Models:**
-* [GUIrilla-See-0.7B on HuggingFace](https://huggingface.co/MacPaw/GUIrilla-See-0.7B).
-* [GUIrilla-See-3B on HuggingFace](https://huggingface.co/MacPaw/GUIrilla-See-3B).
-* [GUIrilla-See-7B on HuggingFace](https://huggingface.co/MacPaw/GUIrilla-See-7B).
+* [GUIrilla-See-0.7B on HuggingFace](https://huggingface.co/GUIrilla/GUIrilla-See-0.7B).
+* [GUIrilla-See-3B on HuggingFace](https://huggingface.co/GUIrilla/GUIrilla-See-3B).
+* [GUIrilla-See-7B on HuggingFace](https://huggingface.co/GUIrilla/GUIrilla-See-7B).
   
 ___
 
@@ -23,8 +23,9 @@ ___
 
 - **macOS**: Version 13.2 or later  
 - **Python**: Version 3.11  
-- [**OpenAI API Key**](https://platform.openai.com/account/api-keys) *(optional, set in `config_open_ai.env`)*  
-- **macOS System Pass Key**: Set in `config_system_pass.env`  
+- [**OpenAI API Key**](https://platform.openai.com/account/api-keys) *(optional, set env variable `OPENAI_API_KEY` in `.env`)*  
+- **macOS System Pass Key**: Set env variable `SYSTEM_PASS` in `.env`
+- [**Sentry Client Public Key**](https://docs.sentry.io/api/projects/retrieve-a-client-key/): *(optional, set env variable `SENTRY_CLIENT_PUBLIC_KEY_URL` in `.env`)*
 - **Mac App Store CLI (`mas`)** *(optional)*: Required for automatic app installation  
   - Install via [mas GitHub page](https://github.com/mas-cli/mas)  
   - Or run:  
@@ -130,9 +131,5 @@ Run the following command to postprocess the tasks with GPT-4 based Task Agent a
 python src/generate_task.py -a Calculator,com.apple.calculator,,os
 ```
 ---
-## macapptree
-As part of the same publication, the `macapptree` library provides complementary functionality to this project. You can find it at [MacPaw/macapptree](https://github.com/MacPaw/macapptree/tree/main).
----
-## License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). You are free to use, modify, and share the code for non-commercial purposes with proper attribution. See the [LICENSE](LICENSE) file for full details.
+## License 
+This project is licensed under the MIT License. The [LICENSE](LICENSE) file will be updated upon de-anonymisation.

@@ -1,11 +1,10 @@
+import os
 from agents.utilities import extract_ids_from_output, pretty_print_xml
 from openai import OpenAI
 import json
 import random
 
-with open("config_open_ai.env", "r") as f:
-    api_key = f.read().strip()
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 with open("src/agents/ordering_prompt.txt", "r") as f:
     ASSISTANT_PROMPT = f.read()

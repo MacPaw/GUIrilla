@@ -16,8 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 PROMPT_PATH = './src/agents/tinytask_prompt.txt'
-with open("config_open_ai.env", "r") as f:
-    API_KEY = f.read().strip()
+API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Read the saved prompt
 with open(PROMPT_PATH, 'r') as prompt_file:

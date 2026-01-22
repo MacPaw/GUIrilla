@@ -177,8 +177,7 @@ def _grant_permissions(app: App):
         print(f"❌ Failed to grant permissions, app path is None")
         return
     # Launch script with sudo to grant permissions
-    with open('config_system_pass.env', 'r') as file:
-        sudo_password = file.read().strip()
+    sudo_password = os.getenv("SYSTEM_PASS")
     script_path = "src/tcc_updater.py"
     cmd = f"echo {sudo_password} | sudo -S python3 {script_path} -b {app.bundle_id} -p {app_path} --add"
     os.system(cmd)

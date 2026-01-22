@@ -17,8 +17,7 @@ def remove_app_from_completed_app_details(app_details: AppDescriptionDetails, ap
             print(f"❌ Cask: Failed to uninstall app {app_details.identifier}. Error: {result}")
     elif app_details.source == "mas":
         # Launch script with sudo to grant permissions
-        with open('config_system_pass.env', 'r') as file:
-            sudo_password = file.read().strip()
+        sudo_password = os.getenv("SYSTEM_PASS")
         
         try:
             cmd = f"echo {sudo_password} | sudo -S {mas_tool} uninstall {app_details.identifier}"

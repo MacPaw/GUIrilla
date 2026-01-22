@@ -142,8 +142,7 @@ def main():
 
 
 if __name__ == "__main__":
-    with open("config_claude.env", "r") as f:
-        api_key = f.read().strip()
+    api_key = os.getenv("CLAUDE_API_KEY")
     client = anthropic.Anthropic(api_key=api_key)
 
     logs_dir = get_log_dir("claude")

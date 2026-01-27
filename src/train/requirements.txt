@@ -1,0 +1,6 @@
+trl==0.17.0
+peft==0.15.2
+wandb==0.19.11
+huggingface_hub==0.31.1
+pyramid==1.5
+num2words==0.5.14

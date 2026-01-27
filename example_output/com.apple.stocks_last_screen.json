@@ -1,0 +1,2230 @@
+{
+    "id": "7512aa2e586c2f3a3029b401dc34dcc9",
+    "name": "GRND___23,83___-0,16",
+    "role": "AXWindow",
+    "description": null,
+    "role_description": "standard window",
+    "value": null,
+    "absolute_position": "352.00;101.00",
+    "position": "0.00;0.00",
+    "size": "1024;768",
+    "enabled": false,
+    "bbox": [
+        0,
+        0,
+        1024,
+        768
+    ],
+    "visible_bbox": [
+        0,
+        0,
+        1024,
+        768
+    ],
+    "children": [
+        {
+            "id": "1a55a5dec6f8fcc0e75355b61857a572",
+            "name": "empty-name-AXButton",
+            "role": "AXButton",
+            "description": null,
+            "role_description": "full screen button",
+            "value": null,
+            "absolute_position": "410.00;119.00",
+            "position": "58.00;18.00",
+            "size": "16;16",
+            "enabled": true,
+            "bbox": [
+                58,
+                18,
+                74,
+                34
+            ],
+            "visible_bbox": [
+                58,
+                18,
+                74,
+                34
+            ],
+            "children": [
+                {
+                    "id": "904a4a68e0004447721791c52a6a6b0c",
+                    "name": "empty-name-AXGroup",
+                    "role": "AXGroup",
+                    "description": null,
+                    "role_description": "group",
+                    "value": null,
+                    "absolute_position": "411.00;119.00",
+                    "position": "59.00;18.00",
+                    "size": "14;16",
+                    "enabled": false,
+                    "bbox": [
+                        59,
+                        18,
+                        73,
+                        34
+                    ],
+                    "visible_bbox": [
+                        59,
+                        18,
+                        73,
+                        34
+                    ],
+                    "children": [
+                        {
+                            "id": "904a4a68e0004447721791c52a6a6b0c",
+                            "name": "empty-name-AXGroup",
+                            "role": "AXGroup",
+                            "description": null,
+                            "role_description": "group",
+                            "value": null,
+                            "absolute_position": "411.00;119.00",
+                            "position": "59.00;18.00",
+                            "size": "14;16",
+                            "enabled": false,
+                            "bbox": [
+                                59,
+                                18,
+                                73,
+                                34
+                            ],
+                            "visible_bbox": [
+                                59,
+                                18,
+                                73,
+                                34
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4ec333a8ffe753c836c0fcce934ef733",
+            "name": "empty-name-AXButton",
+            "role": "AXButton",
+            "description": null,
+            "role_description": "minimize button",
+            "value": null,
+            "absolute_position": "390.00;119.00",
+            "position": "38.00;18.00",
+            "size": "16;16",
+            "enabled": true,
+            "bbox": [
+                38,
+                18,
+                54,
+                34
+            ],
+            "visible_bbox": [
+                38,
+                18,
+                54,
+                34
+            ],
+            "children": []
+        },
+        {
+            "id": "65834e55daad499f73072019105e5597",
+            "name": "empty-name-AXButton",
+            "role": "AXButton",
+            "description": null,
+            "role_description": "close button",
+            "value": null,
+            "absolute_position": "370.00;119.00",
+            "position": "18.00;18.00",
+            "size": "16;16",
+            "enabled": true,
+            "bbox": [
+                18,
+                18,
+                34,
+                34
+            ],
+            "visible_bbox": [
+                18,
+                18,
+                34,
+                34
+            ],
+            "children": []
+        },
+        {
+            "id": "a15043d665dd6d50521d7aff82939e12",
+            "name": "empty-name-AXToolbar",
+            "role": "AXToolbar",
+            "description": null,
+            "role_description": "toolbar",
+            "value": null,
+            "absolute_position": "352.00;101.00",
+            "position": "0.00;0.00",
+            "size": "1024;52",
+            "enabled": false,
+            "bbox": [
+                0,
+                0,
+                1024,
+                52
+            ],
+            "visible_bbox": [
+                0,
+                0,
+                1024,
+                52
+            ],
+            "children": [
+                {
+                    "id": "02a876c50778226988a6f4d9618c1d53",
+                    "name": "empty-name-AXButton",
+                    "role": "AXButton",
+                    "description": "Manage",
+                    "role_description": "button",
+                    "value": null,
+                    "absolute_position": "1318.00;101.00",
+                    "position": "966.00;0.00",
+                    "size": "50;52",
+                    "enabled": true,
+                    "bbox": [
+                        966,
+                        0,
+                        1016,
+                        52
+                    ],
+                    "visible_bbox": [
+                        966,
+                        0,
+                        1016,
+                        52
+                    ],
+                    "children": []
+                },
+                {
+                    "id": "45571a220c62c0a31326848d0f596d43",
+                    "name": "empty-name-AXButton",
+                    "role": "AXButton",
+                    "description": "Share",
+                    "role_description": "button",
+                    "value": null,
+                    "absolute_position": "1281.00;101.00",
+                    "position": "929.00;0.00",
+                    "size": "37;52",
+                    "enabled": true,
+                    "bbox": [
+                        929,
+                        0,
+                        966,
+                        52
+                    ],
+                    "visible_bbox": [
+                        929,
+                        0,
+                        966,
+                        52
+                    ],
+                    "children": []
+                },
+                {
+                    "id": "c95d95b4abc721bb6004b36102e5ea66",
+                    "name": "empty-name-AXButton",
+                    "role": "AXButton",
+                    "description": "Go back",
+                    "role_description": "button",
+                    "value": null,
+                    "absolute_position": "691.00;101.00",
+                    "position": "339.00;0.00",
+                    "size": "36;52",
+                    "enabled": false,
+                    "bbox": [
+                        339,
+                        0,
+                        375,
+                        52
+                    ],
+                    "visible_bbox": [
+                        339,
+                        0,
+                        375,
+                        52
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "221e4d13da2c3af8388904c309411fc9",
+            "name": "empty-name-AXGroup",
+            "role": "AXGroup",
+            "description": null,
+            "role_description": "group",
+            "value": null,
+            "absolute_position": "352.00;101.00",
+            "position": "0.00;0.00",
+            "size": "1024;768",
+            "enabled": false,
+            "bbox": [
+                0,
+                0,
+                1024,
+                768
+            ],
+            "visible_bbox": [
+                0,
+                0,
+                1024,
+                768
+            ],
+            "children": [
+                {
+                    "id": "badfe7942f008917103ff3ae9c23b4e6",
+                    "name": "empty-name-AXGroup",
+                    "role": "AXGroup",
+                    "description": null,
+                    "role_description": "group",
+                    "value": null,
+                    "absolute_position": "352.00;101.00",
+                    "position": "0.00;0.00",
+                    "size": "1024;768",
+                    "enabled": true,
+                    "bbox": [
+                        0,
+                        0,
+                        1024,
+                        768
+                    ],
+                    "visible_bbox": [
+                        0,
+                        0,
+                        1024,
+                        768
+                    ],
+                    "children": [
+                        {
+                            "id": "1199f88b913ff4700a362150c745b47c",
+                            "name": "empty-name-AXGroup",
+                            "role": "AXGroup",
+                            "description": null,
+                            "role_description": "group",
+                            "value": null,
+                            "absolute_position": "683.00;101.00",
+                            "position": "331.00;0.00",
+                            "size": "693;768",
+                            "enabled": true,
+                            "bbox": [
+                                331,
+                                0,
+                                1024,
+                                768
+                            ],
+                            "visible_bbox": [
+                                331,
+                                0,
+                                1024,
+                                768
+                            ],
+                            "children": [
+                                {
+                                    "id": "1199f88b913ff4700a362150c745b47c",
+                                    "name": "empty-name-AXGroup",
+                                    "role": "AXGroup",
+                                    "description": null,
+                                    "role_description": "group",
+                                    "value": null,
+                                    "absolute_position": "683.00;101.00",
+                                    "position": "331.00;0.00",
+                                    "size": "693;768",
+                                    "enabled": true,
+                                    "bbox": [
+                                        331,
+                                        0,
+                                        1024,
+                                        768
+                                    ],
+                                    "visible_bbox": [
+                                        331,
+                                        0,
+                                        1024,
+                                        768
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "931d8c4010e42ff4f8f070b875a51b48",
+                                            "name": "empty-name-AXGroup",
+                                            "role": "AXGroup",
+                                            "description": "Grindr Inc.",
+                                            "role_description": "collection",
+                                            "value": null,
+                                            "absolute_position": "689.00;101.00",
+                                            "position": "337.00;0.00",
+                                            "size": "680;768",
+                                            "enabled": true,
+                                            "bbox": [
+                                                337,
+                                                0,
+                                                1017,
+                                                768
+                                            ],
+                                            "visible_bbox": [
+                                                337,
+                                                0,
+                                                1017,
+                                                768
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "9b7b5d1ed90fb0ffe910f5cac1c2b697",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "1038.00;785.00",
+                                                    "position": "686.00;684.00",
+                                                    "size": "311;99",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        686,
+                                                        684,
+                                                        997,
+                                                        783
+                                                    ],
+                                                    "visible_bbox": [
+                                                        686,
+                                                        684,
+                                                        997,
+                                                        768
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "b82d6e873fc466d71aebdf4991b2d1cb",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": "Zacks, Grindr Inc. (GRND) Q1 Earnings Meet Estimates, 5 days ago",
+                                                            "role_description": "",
+                                                            "value": "GRINDR INC (GRND) delivered earnings and revenue surprises of 0% and 1.01%, respectively, for the quarter ended March 2025. Do the numbers hold clues to what lies ahead for the stock?",
+                                                            "absolute_position": "1038.00;785.00",
+                                                            "position": "686.00;684.00",
+                                                            "size": "311;99",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                686,
+                                                                684,
+                                                                997,
+                                                                783
+                                                            ],
+                                                            "visible_bbox": [
+                                                                686,
+                                                                684,
+                                                                997,
+                                                                768
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "2d17d4e7bf641f3a94e662849f1f60da",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "709.00;785.00",
+                                                    "position": "357.00;684.00",
+                                                    "size": "311;99",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        357,
+                                                        684,
+                                                        668,
+                                                        783
+                                                    ],
+                                                    "visible_bbox": [
+                                                        357,
+                                                        684,
+                                                        668,
+                                                        768
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "ccde3876af8be94f30ffe8f754d215dc",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": "Yahoo Finance Video, Grindr CEO talks app's new telehealth service, evolving user base, 4 days ago",
+                                                            "role_description": "",
+                                                            "value": "Dating app Grindr (GRND) missed first quarter earnings estimates while raising its full-year revenue guidance this week. Grindr CEO George Arison sits down with Josh Lipton to speak about more about the platform's print, Grindr's evolving demographic, and its expansion to a telehealth service called Woodwork. To watch more expert insights and analysis on the latest market action, check out more Asking for a Trend here.",
+                                                            "absolute_position": "709.00;785.00",
+                                                            "position": "357.00;684.00",
+                                                            "size": "311;99",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                357,
+                                                                684,
+                                                                668,
+                                                                783
+                                                            ],
+                                                            "visible_bbox": [
+                                                                357,
+                                                                684,
+                                                                668,
+                                                                768
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "d269b1f12d1b5abaecc3fdd390fa9efa",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "1038.00;672.00",
+                                                    "position": "686.00;571.00",
+                                                    "size": "311;99",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        686,
+                                                        571,
+                                                        997,
+                                                        670
+                                                    ],
+                                                    "visible_bbox": [
+                                                        686,
+                                                        571,
+                                                        997,
+                                                        670
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "ef9fd89f493967ae31bec62209883e8a",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": "Zacks, Grindr Inc. (GRND) Is Up 9.87% in One Week: What You Should Know, 1 day ago",
+                                                            "role_description": "",
+                                                            "value": "Does Grindr Inc. (GRND) have what it takes to be a top stock pick for momentum investors? Let's find out.",
+                                                            "absolute_position": "1038.00;672.00",
+                                                            "position": "686.00;571.00",
+                                                            "size": "311;99",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                686,
+                                                                571,
+                                                                997,
+                                                                670
+                                                            ],
+                                                            "visible_bbox": [
+                                                                686,
+                                                                571,
+                                                                997,
+                                                                670
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "93bef09c397a733ce927793c101c7ab3",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "709.00;672.00",
+                                                    "position": "357.00;571.00",
+                                                    "size": "311;99",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        357,
+                                                        571,
+                                                        668,
+                                                        670
+                                                    ],
+                                                    "visible_bbox": [
+                                                        357,
+                                                        571,
+                                                        668,
+                                                        670
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "c5d352d6f9945db3798a2eeb197870a6",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": "Zacks, Earnings Estimates Rising for GRINDR INC (GRND): Will It Gain?, 1 day ago",
+                                                            "role_description": "",
+                                                            "value": "GRINDR INC (GRND) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions.",
+                                                            "absolute_position": "709.00;672.00",
+                                                            "position": "357.00;571.00",
+                                                            "size": "311;99",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                357,
+                                                                571,
+                                                                668,
+                                                                670
+                                                            ],
+                                                            "visible_bbox": [
+                                                                357,
+                                                                571,
+                                                                668,
+                                                                670
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "1273c441c9ebf58211dca862a4cf123b",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "689.00;545.00",
+                                                    "position": "337.00;444.00",
+                                                    "size": "680;113",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        337,
+                                                        444,
+                                                        1017,
+                                                        557
+                                                    ],
+                                                    "visible_bbox": [
+                                                        337,
+                                                        444,
+                                                        1017,
+                                                        557
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "1140a32f4f795756bcb53064a2c8fe93",
+                                                            "name": "empty-name-AXButton",
+                                                            "role": "AXButton",
+                                                            "description": "See More Data from Yahoo Finance",
+                                                            "role_description": "button",
+                                                            "value": null,
+                                                            "absolute_position": "709.00;641.00",
+                                                            "position": "357.00;540.00",
+                                                            "size": "227;16",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                357,
+                                                                540,
+                                                                584,
+                                                                556
+                                                            ],
+                                                            "visible_bbox": [
+                                                                357,
+                                                                540,
+                                                                584,
+                                                                556
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "95e6f3529f76a2207d5b37b7257e80cb",
+                                                            "name": "empty-name-AXGroup",
+                                                            "role": "AXGroup",
+                                                            "description": null,
+                                                            "role_description": "group",
+                                                            "value": null,
+                                                            "absolute_position": "689.00;545.00",
+                                                            "position": "337.00;444.00",
+                                                            "size": "680;90",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "visible_bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "19640fee40ef8f5b67ebe3a6e03f7a2c",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Earnings Per Share",
+                                                                    "role_description": "",
+                                                                    "value": "-0,60",
+                                                                    "absolute_position": "1211.00;604.00",
+                                                                    "position": "859.00;503.00",
+                                                                    "size": "139;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        859,
+                                                                        503,
+                                                                        998,
+                                                                        519
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        859,
+                                                                        503,
+                                                                        998,
+                                                                        519
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "afff215502451f9494f8aab9168406d5",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Beta",
+                                                                    "role_description": "",
+                                                                    "value": "0,28",
+                                                                    "absolute_position": "1211.00;582.00",
+                                                                    "position": "859.00;481.00",
+                                                                    "size": "139;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        859,
+                                                                        481,
+                                                                        998,
+                                                                        497
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        859,
+                                                                        481,
+                                                                        998,
+                                                                        497
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "3d7a7970db29674fdeb156f43ab23e9d",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Yield",
+                                                                    "role_description": "",
+                                                                    "value": "Unavailable",
+                                                                    "absolute_position": "1211.00;560.00",
+                                                                    "position": "859.00;459.00",
+                                                                    "size": "139;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        859,
+                                                                        459,
+                                                                        998,
+                                                                        475
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        859,
+                                                                        459,
+                                                                        998,
+                                                                        475
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "95e6f3529f76a2207d5b37b7257e80cb",
+                                                            "name": "empty-name-AXGroup",
+                                                            "role": "AXGroup",
+                                                            "description": null,
+                                                            "role_description": "group",
+                                                            "value": null,
+                                                            "absolute_position": "689.00;545.00",
+                                                            "position": "337.00;444.00",
+                                                            "size": "680;90",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "visible_bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "5914322b4ea469873e4db28279ab2a41",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Average Volume",
+                                                                    "role_description": "",
+                                                                    "value": "2,078 million",
+                                                                    "absolute_position": "1044.00;604.00",
+                                                                    "position": "692.00;503.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        692,
+                                                                        503,
+                                                                        830,
+                                                                        519
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        692,
+                                                                        503,
+                                                                        830,
+                                                                        519
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "487bdc729368cd058b16d4bc0f04b78d",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "52-Week Low",
+                                                                    "role_description": "",
+                                                                    "value": "8,95",
+                                                                    "absolute_position": "1044.00;582.00",
+                                                                    "position": "692.00;481.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        692,
+                                                                        481,
+                                                                        830,
+                                                                        497
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        692,
+                                                                        481,
+                                                                        830,
+                                                                        497
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "682d85a8d4d41aaa0406e50cdd87f7a7",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "52-Week High",
+                                                                    "role_description": "",
+                                                                    "value": "24,80",
+                                                                    "absolute_position": "1044.00;560.00",
+                                                                    "position": "692.00;459.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        692,
+                                                                        459,
+                                                                        830,
+                                                                        475
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        692,
+                                                                        459,
+                                                                        830,
+                                                                        475
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "95e6f3529f76a2207d5b37b7257e80cb",
+                                                            "name": "empty-name-AXGroup",
+                                                            "role": "AXGroup",
+                                                            "description": null,
+                                                            "role_description": "group",
+                                                            "value": null,
+                                                            "absolute_position": "689.00;545.00",
+                                                            "position": "337.00;444.00",
+                                                            "size": "680;90",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "visible_bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "8447ddde9819505144dbf32ba3cb4c83",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Market Cap",
+                                                                    "role_description": "",
+                                                                    "value": "4,668 billion",
+                                                                    "absolute_position": "876.00;604.00",
+                                                                    "position": "524.00;503.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        524,
+                                                                        503,
+                                                                        662,
+                                                                        519
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        524,
+                                                                        503,
+                                                                        662,
+                                                                        519
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "f19921931ebb9e7b71adf72d44c3af98",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Price/Earnings Ratio",
+                                                                    "role_description": "",
+                                                                    "value": "Unavailable",
+                                                                    "absolute_position": "876.00;582.00",
+                                                                    "position": "524.00;481.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        524,
+                                                                        481,
+                                                                        662,
+                                                                        497
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        524,
+                                                                        481,
+                                                                        662,
+                                                                        497
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "d192aff24062d00a4f1b7d809c2a1483",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Volume",
+                                                                    "role_description": "",
+                                                                    "value": "3,824 million",
+                                                                    "absolute_position": "876.00;560.00",
+                                                                    "position": "524.00;459.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        524,
+                                                                        459,
+                                                                        662,
+                                                                        475
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        524,
+                                                                        459,
+                                                                        662,
+                                                                        475
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "95e6f3529f76a2207d5b37b7257e80cb",
+                                                            "name": "empty-name-AXGroup",
+                                                            "role": "AXGroup",
+                                                            "description": null,
+                                                            "role_description": "group",
+                                                            "value": null,
+                                                            "absolute_position": "689.00;545.00",
+                                                            "position": "337.00;444.00",
+                                                            "size": "680;90",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "visible_bbox": [
+                                                                337,
+                                                                444,
+                                                                1017,
+                                                                534
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "bcfad1c756ab93e778e79bc186f4fd18",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Today's Low",
+                                                                    "role_description": "",
+                                                                    "value": "23,69",
+                                                                    "absolute_position": "709.00;604.00",
+                                                                    "position": "357.00;503.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        357,
+                                                                        503,
+                                                                        495,
+                                                                        519
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        357,
+                                                                        503,
+                                                                        495,
+                                                                        519
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "bc09ad84cac0221ab91bc6294c954d5c",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Today's High",
+                                                                    "role_description": "",
+                                                                    "value": "24,55",
+                                                                    "absolute_position": "709.00;582.00",
+                                                                    "position": "357.00;481.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        357,
+                                                                        481,
+                                                                        495,
+                                                                        497
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        357,
+                                                                        481,
+                                                                        495,
+                                                                        497
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "63141d15270055f1f674aad3fd12ee96",
+                                                                    "name": "empty-name-AXGenericElement",
+                                                                    "role": "AXGenericElement",
+                                                                    "description": "Today's Open",
+                                                                    "role_description": "",
+                                                                    "value": "24,00",
+                                                                    "absolute_position": "709.00;560.00",
+                                                                    "position": "357.00;459.00",
+                                                                    "size": "138;16",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        357,
+                                                                        459,
+                                                                        495,
+                                                                        475
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        357,
+                                                                        459,
+                                                                        495,
+                                                                        475
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "f76cc901179b96eb144bfe5afeb7a6b5",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "689.00;271.00",
+                                                    "position": "337.00;170.00",
+                                                    "size": "680;274",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        337,
+                                                        170,
+                                                        1017,
+                                                        444
+                                                    ],
+                                                    "visible_bbox": [
+                                                        337,
+                                                        170,
+                                                        1017,
+                                                        444
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "b98106c82708c715c93e75d359d5eb04",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "23,15",
+                                                            "absolute_position": "1260.78;315.00",
+                                                            "position": "908.78;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                908,
+                                                                214,
+                                                                970,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                908,
+                                                                214,
+                                                                970,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "c57316682b73fe2027cd27f48c12a147",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "20,83",
+                                                            "absolute_position": "1199.47;315.00",
+                                                            "position": "847.47;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                847,
+                                                                214,
+                                                                908,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                847,
+                                                                214,
+                                                                908,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "3ef5b8e9d307d1c465b51c69c911747b",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "18,88",
+                                                            "absolute_position": "1138.16;315.00",
+                                                            "position": "786.16;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                786,
+                                                                214,
+                                                                847,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                786,
+                                                                214,
+                                                                847,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "954457b61a752081de14260754a42041",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "17,07",
+                                                            "absolute_position": "1076.86;315.00",
+                                                            "position": "724.86;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                724,
+                                                                214,
+                                                                786,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                724,
+                                                                214,
+                                                                786,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "be921de0fa9e23eb90da6f71d38ea17f",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "17,90",
+                                                            "absolute_position": "1015.55;315.00",
+                                                            "position": "663.55;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                663,
+                                                                214,
+                                                                724,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                663,
+                                                                214,
+                                                                724,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "bb5692350ccc02b82dbaa4f8572f0acf",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "17,34",
+                                                            "absolute_position": "954.24;315.00",
+                                                            "position": "602.24;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                602,
+                                                                214,
+                                                                663,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                602,
+                                                                214,
+                                                                663,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "38b74f225bd95896398bdc9d8cc6392d",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "16,39",
+                                                            "absolute_position": "892.93;315.00",
+                                                            "position": "540.93;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                540,
+                                                                214,
+                                                                602,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                540,
+                                                                214,
+                                                                602,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "843de00b1ded4a15fae191bf79d0e839",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "18,69",
+                                                            "absolute_position": "831.62;315.00",
+                                                            "position": "479.62;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                479,
+                                                                214,
+                                                                540,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                479,
+                                                                214,
+                                                                540,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "43f43f744fb05d478224170785c2696b",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "17,93",
+                                                            "absolute_position": "770.31;315.00",
+                                                            "position": "418.31;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                418,
+                                                                214,
+                                                                479,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                418,
+                                                                214,
+                                                                479,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "e9ac87282a3e934fe4d3e974ef48141d",
+                                                            "name": "empty-name-AXGenericElement",
+                                                            "role": "AXGenericElement",
+                                                            "description": null,
+                                                            "role_description": "",
+                                                            "value": "18,26",
+                                                            "absolute_position": "709.00;315.00",
+                                                            "position": "357.00;214.00",
+                                                            "size": "61;192",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                357,
+                                                                214,
+                                                                418,
+                                                                406
+                                                            ],
+                                                            "visible_bbox": [
+                                                                357,
+                                                                214,
+                                                                418,
+                                                                406
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "99b8763a5ce90ec41e149570ebceb210",
+                                                            "name": "empty-name-AXScrollArea",
+                                                            "role": "AXScrollArea",
+                                                            "description": "Reporting period",
+                                                            "role_description": "scroll area",
+                                                            "value": "3 months",
+                                                            "absolute_position": "689.00;271.00",
+                                                            "position": "337.00;170.00",
+                                                            "size": "680;44",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                337,
+                                                                170,
+                                                                1017,
+                                                                214
+                                                            ],
+                                                            "visible_bbox": [
+                                                                337,
+                                                                170,
+                                                                1017,
+                                                                214
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "b20ba1c6ac4e91567850a88cf1183b11",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "ALL",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "1318.00;277.00",
+                                                                    "position": "966.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        966,
+                                                                        176,
+                                                                        1002,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        966,
+                                                                        176,
+                                                                        1002,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "b5f1690ab52797a3a8059119e5ac8798",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "10 years",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "1255.00;277.00",
+                                                                    "position": "903.00;176.00",
+                                                                    "size": "38;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        903,
+                                                                        176,
+                                                                        941,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        903,
+                                                                        176,
+                                                                        941,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "2ed4306e9dd376aa945f4fb4a6e26ac2",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "5 years",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "1194.00;277.00",
+                                                                    "position": "842.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        842,
+                                                                        176,
+                                                                        878,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        842,
+                                                                        176,
+                                                                        878,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "52d1e01e09a150a6c2fa4dcae23634d6",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "2 years",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "1133.00;277.00",
+                                                                    "position": "781.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        781,
+                                                                        176,
+                                                                        817,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        781,
+                                                                        176,
+                                                                        817,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "20f446225646172aad1e1be4352bc360",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "1 year",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "1072.00;277.00",
+                                                                    "position": "720.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        720,
+                                                                        176,
+                                                                        756,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        720,
+                                                                        176,
+                                                                        756,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "4c33d62cf2ea2ceca0231484bf8bdf1e",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "year to date",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "1009.00;277.00",
+                                                                    "position": "657.00;176.00",
+                                                                    "size": "38;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        657,
+                                                                        176,
+                                                                        695,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        657,
+                                                                        176,
+                                                                        695,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "1d725292338fdfdf009495955b6a4427",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "6 months",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "948.00;277.00",
+                                                                    "position": "596.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        596,
+                                                                        176,
+                                                                        632,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        596,
+                                                                        176,
+                                                                        632,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "6fbb9d5aeed8a48568eebcb9e1a610ca",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "3 months",
+                                                                    "role_description": "button",
+                                                                    "value": "selected",
+                                                                    "absolute_position": "887.00;277.00",
+                                                                    "position": "535.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        535,
+                                                                        176,
+                                                                        571,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        535,
+                                                                        176,
+                                                                        571,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "42fae86a410dc647fc3ba4cb2a0ce285",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "1 month",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "826.00;277.00",
+                                                                    "position": "474.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        474,
+                                                                        176,
+                                                                        510,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        474,
+                                                                        176,
+                                                                        510,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "8fe4d3d06ef4fcd920198f1c84e6cb1a",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "1 week",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "765.00;277.00",
+                                                                    "position": "413.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        413,
+                                                                        176,
+                                                                        449,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        413,
+                                                                        176,
+                                                                        449,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "id": "36528fcd0c3a6a8ca7b11db85395bb3b",
+                                                                    "name": "empty-name-AXButton",
+                                                                    "role": "AXButton",
+                                                                    "description": "1 day",
+                                                                    "role_description": "button",
+                                                                    "value": null,
+                                                                    "absolute_position": "704.00;277.00",
+                                                                    "position": "352.00;176.00",
+                                                                    "size": "36;32",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        352,
+                                                                        176,
+                                                                        388,
+                                                                        208
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        352,
+                                                                        176,
+                                                                        388,
+                                                                        208
+                                                                    ],
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "c0b90af3b1397cfaf81fa85468887502",
+                                                    "name": "empty-name-AXStaticText",
+                                                    "role": "AXStaticText",
+                                                    "description": "NYSE · USD",
+                                                    "role_description": "text",
+                                                    "value": null,
+                                                    "absolute_position": "709.00;242.00",
+                                                    "position": "357.00;141.00",
+                                                    "size": "73;17",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        357,
+                                                        141,
+                                                        430,
+                                                        158
+                                                    ],
+                                                    "visible_bbox": [
+                                                        357,
+                                                        141,
+                                                        430,
+                                                        158
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "dd1ab40779ef305a26f27fff793c6fd7",
+                                                    "name": "empty-name-AXStaticText",
+                                                    "role": "AXStaticText",
+                                                    "description": "Past 3 Months",
+                                                    "role_description": "text",
+                                                    "value": null,
+                                                    "absolute_position": "1265.00;220.00",
+                                                    "position": "913.00;119.00",
+                                                    "size": "79;14",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        913,
+                                                        119,
+                                                        992,
+                                                        133
+                                                    ],
+                                                    "visible_bbox": [
+                                                        913,
+                                                        119,
+                                                        992,
+                                                        133
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "37891dd1318c348fcb6806b6ccb63e3b",
+                                                    "name": "empty-name-AXStaticText",
+                                                    "role": "AXStaticText",
+                                                    "description": "Grindr Inc.",
+                                                    "role_description": "text",
+                                                    "value": null,
+                                                    "absolute_position": "809.00;214.00",
+                                                    "position": "457.00;113.00",
+                                                    "size": "83;21",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        457,
+                                                        113,
+                                                        540,
+                                                        134
+                                                    ],
+                                                    "visible_bbox": [
+                                                        457,
+                                                        113,
+                                                        540,
+                                                        134
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "d4920b7dab6e8c1b97c9808fb5530c4c",
+                                                    "name": "empty-name-AXStaticText",
+                                                    "role": "AXStaticText",
+                                                    "description": "change",
+                                                    "role_description": "text",
+                                                    "value": "up 5,57 points",
+                                                    "absolute_position": "1316.00;205.00",
+                                                    "position": "964.00;104.00",
+                                                    "size": "33;15",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        964,
+                                                        104,
+                                                        997,
+                                                        119
+                                                    ],
+                                                    "visible_bbox": [
+                                                        964,
+                                                        104,
+                                                        997,
+                                                        119
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "e1a9eedb0f3638d0557bbea32124d06e",
+                                                    "name": "empty-name-AXStaticText",
+                                                    "role": "AXStaticText",
+                                                    "description": "price",
+                                                    "role_description": "text",
+                                                    "value": "23,83",
+                                                    "absolute_position": "1265.00;204.00",
+                                                    "position": "913.00;103.00",
+                                                    "size": "38;16",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        913,
+                                                        103,
+                                                        951,
+                                                        119
+                                                    ],
+                                                    "visible_bbox": [
+                                                        913,
+                                                        103,
+                                                        951,
+                                                        119
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "15e6d29cb860548e7f40b69cdbe6c6e6",
+                                                    "name": "empty-name-AXHeading",
+                                                    "role": "AXHeading",
+                                                    "description": "GRND",
+                                                    "role_description": "heading",
+                                                    "value": null,
+                                                    "absolute_position": "709.00;201.00",
+                                                    "position": "357.00;100.00",
+                                                    "size": "87;36",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        357,
+                                                        100,
+                                                        444,
+                                                        136
+                                                    ],
+                                                    "visible_bbox": [
+                                                        357,
+                                                        100,
+                                                        444,
+                                                        136
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d66c5470b44ea1cdf820bd19080cde05",
+                            "name": "empty-name-AXSplitter",
+                            "role": "AXSplitter",
+                            "description": null,
+                            "role_description": "splitter",
+                            "value": 32.2265625,
+                            "absolute_position": "682.00;101.00",
+                            "position": "330.00;0.00",
+                            "size": "1;768",
+                            "enabled": true,
+                            "bbox": [
+                                330,
+                                0,
+                                331,
+                                768
+                            ],
+                            "visible_bbox": [
+                                330,
+                                0,
+                                331,
+                                768
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": "3f4d61d005d9088387f47522cae549e4",
+                            "name": "empty-name-AXGroup",
+                            "role": "AXGroup",
+                            "description": null,
+                            "role_description": "group",
+                            "value": null,
+                            "absolute_position": "352.00;101.00",
+                            "position": "0.00;0.00",
+                            "size": "330;768",
+                            "enabled": true,
+                            "bbox": [
+                                0,
+                                0,
+                                330,
+                                768
+                            ],
+                            "visible_bbox": [
+                                0,
+                                0,
+                                330,
+                                768
+                            ],
+                            "children": [
+                                {
+                                    "id": "4d94a3c49e1421f77c5b366419c87091",
+                                    "name": "empty-name-AXGroup",
+                                    "role": "AXGroup",
+                                    "description": "Toolbar",
+                                    "role_description": "group",
+                                    "value": null,
+                                    "absolute_position": "352.00;831.00",
+                                    "position": "0.00;730.00",
+                                    "size": "330;38",
+                                    "enabled": true,
+                                    "bbox": [
+                                        0,
+                                        730,
+                                        330,
+                                        768
+                                    ],
+                                    "visible_bbox": [
+                                        0,
+                                        730,
+                                        330,
+                                        768
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "edc5a171faa3b7814101464b1908f207",
+                                            "name": "empty-name-AXGroup",
+                                            "role": "AXGroup",
+                                            "description": null,
+                                            "role_description": "group",
+                                            "value": null,
+                                            "absolute_position": "352.00;831.00",
+                                            "position": "0.00;730.00",
+                                            "size": "314;38",
+                                            "enabled": true,
+                                            "bbox": [
+                                                0,
+                                                730,
+                                                314,
+                                                768
+                                            ],
+                                            "visible_bbox": [
+                                                0,
+                                                730,
+                                                314,
+                                                768
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "eec0b972e7cd212bd4350c3419ae4320",
+                                                    "name": "empty-name-AXStaticText",
+                                                    "role": "AXStaticText",
+                                                    "description": "Market Closed",
+                                                    "role_description": "text",
+                                                    "value": null,
+                                                    "absolute_position": "584.00;843.00",
+                                                    "position": "232.00;742.00",
+                                                    "size": "82;15",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        232,
+                                                        742,
+                                                        314,
+                                                        757
+                                                    ],
+                                                    "visible_bbox": [
+                                                        232,
+                                                        742,
+                                                        314,
+                                                        757
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "id": "a688d7616ab64c48dce9b0d6893ddef1",
+                                                    "name": "empty-name-AXButton",
+                                                    "role": "AXButton",
+                                                    "description": "Yahoo Finance",
+                                                    "role_description": "button",
+                                                    "value": null,
+                                                    "absolute_position": "352.00;831.00",
+                                                    "position": "0.00;730.00",
+                                                    "size": "104;38",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        0,
+                                                        730,
+                                                        104,
+                                                        768
+                                                    ],
+                                                    "visible_bbox": [
+                                                        0,
+                                                        730,
+                                                        104,
+                                                        768
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3f4d61d005d9088387f47522cae549e4",
+                                    "name": "empty-name-AXGroup",
+                                    "role": "AXGroup",
+                                    "description": null,
+                                    "role_description": "group",
+                                    "value": null,
+                                    "absolute_position": "352.00;101.00",
+                                    "position": "0.00;0.00",
+                                    "size": "330;768",
+                                    "enabled": true,
+                                    "bbox": [
+                                        0,
+                                        0,
+                                        330,
+                                        768
+                                    ],
+                                    "visible_bbox": [
+                                        0,
+                                        0,
+                                        330,
+                                        768
+                                    ],
+                                    "children": [
+                                        {
+                                            "id": "3f4d61d005d9088387f47522cae549e4",
+                                            "name": "empty-name-AXGroup",
+                                            "role": "AXGroup",
+                                            "description": null,
+                                            "role_description": "group",
+                                            "value": null,
+                                            "absolute_position": "352.00;101.00",
+                                            "position": "0.00;0.00",
+                                            "size": "330;768",
+                                            "enabled": true,
+                                            "bbox": [
+                                                0,
+                                                0,
+                                                330,
+                                                768
+                                            ],
+                                            "visible_bbox": [
+                                                0,
+                                                0,
+                                                330,
+                                                768
+                                            ],
+                                            "children": [
+                                                {
+                                                    "id": "1c612680ff26e481e6f7b6b9a74591d1",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "Nav bar",
+                                                    "value": null,
+                                                    "absolute_position": "352.00;153.00",
+                                                    "position": "0.00;52.00",
+                                                    "size": "330;44",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        0,
+                                                        52,
+                                                        330,
+                                                        96
+                                                    ],
+                                                    "visible_bbox": [
+                                                        0,
+                                                        52,
+                                                        330,
+                                                        96
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "337b41e668f637789a40eef5ff81efb2",
+                                                            "name": "empty-name-AXButton",
+                                                            "role": "AXButton",
+                                                            "description": "Clear text",
+                                                            "role_description": "button",
+                                                            "value": null,
+                                                            "absolute_position": "607.00;167.50",
+                                                            "position": "255.00;66.50",
+                                                            "size": "15;15",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                255,
+                                                                66,
+                                                                270,
+                                                                81
+                                                            ],
+                                                            "visible_bbox": [
+                                                                255,
+                                                                66,
+                                                                270,
+                                                                81
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "1357a0eebcdc29b7ab3e032ad3d4465e",
+                                                            "name": "empty-name-AXTextField",
+                                                            "role": "AXTextField",
+                                                            "description": null,
+                                                            "role_description": "search text field",
+                                                            "value": "DEFAULT",
+                                                            "absolute_position": "362.00;160.00",
+                                                            "position": "10.00;59.00",
+                                                            "size": "267;30",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                10,
+                                                                59,
+                                                                277,
+                                                                89
+                                                            ],
+                                                            "visible_bbox": [
+                                                                10,
+                                                                59,
+                                                                277,
+                                                                89
+                                                            ],
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "id": "f502dab7861774e574bb705597b9aa33",
+                                                            "name": "empty-name-AXButton",
+                                                            "role": "AXButton",
+                                                            "description": "Done",
+                                                            "role_description": "button",
+                                                            "value": null,
+                                                            "absolute_position": "640.00;159.00",
+                                                            "position": "288.00;58.00",
+                                                            "size": "32;30",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                288,
+                                                                58,
+                                                                320,
+                                                                88
+                                                            ],
+                                                            "visible_bbox": [
+                                                                288,
+                                                                58,
+                                                                320,
+                                                                88
+                                                            ],
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "3f4d61d005d9088387f47522cae549e4",
+                                                    "name": "empty-name-AXGroup",
+                                                    "role": "AXGroup",
+                                                    "description": null,
+                                                    "role_description": "group",
+                                                    "value": null,
+                                                    "absolute_position": "352.00;101.00",
+                                                    "position": "0.00;0.00",
+                                                    "size": "330;768",
+                                                    "enabled": true,
+                                                    "bbox": [
+                                                        0,
+                                                        0,
+                                                        330,
+                                                        768
+                                                    ],
+                                                    "visible_bbox": [
+                                                        0,
+                                                        0,
+                                                        330,
+                                                        768
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "id": "3f4d61d005d9088387f47522cae549e4",
+                                                            "name": "empty-name-AXGroup",
+                                                            "role": "AXGroup",
+                                                            "description": null,
+                                                            "role_description": "group",
+                                                            "value": null,
+                                                            "absolute_position": "352.00;101.00",
+                                                            "position": "0.00;0.00",
+                                                            "size": "330;768",
+                                                            "enabled": true,
+                                                            "bbox": [
+                                                                0,
+                                                                0,
+                                                                330,
+                                                                768
+                                                            ],
+                                                            "visible_bbox": [
+                                                                0,
+                                                                0,
+                                                                330,
+                                                                768
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "id": "3f4d61d005d9088387f47522cae549e4",
+                                                                    "name": "empty-name-AXGroup",
+                                                                    "role": "AXGroup",
+                                                                    "description": null,
+                                                                    "role_description": "collection",
+                                                                    "value": null,
+                                                                    "absolute_position": "352.00;101.00",
+                                                                    "position": "0.00;0.00",
+                                                                    "size": "330;768",
+                                                                    "enabled": true,
+                                                                    "bbox": [
+                                                                        0,
+                                                                        0,
+                                                                        330,
+                                                                        768
+                                                                    ],
+                                                                    "visible_bbox": [
+                                                                        0,
+                                                                        0,
+                                                                        330,
+                                                                        768
+                                                                    ],
+                                                                    "children": [
+                                                                        {
+                                                                            "id": "88ee78987eaf763a6cdf8af9e4734084",
+                                                                            "name": "empty-name-AXGroup",
+                                                                            "role": "AXGroup",
+                                                                            "description": null,
+                                                                            "role_description": "group",
+                                                                            "value": null,
+                                                                            "absolute_position": "358.00;253.00",
+                                                                            "position": "6.00;152.00",
+                                                                            "size": "318;64",
+                                                                            "enabled": true,
+                                                                            "bbox": [
+                                                                                6,
+                                                                                152,
+                                                                                324,
+                                                                                216
+                                                                            ],
+                                                                            "visible_bbox": [
+                                                                                6,
+                                                                                152,
+                                                                                324,
+                                                                                216
+                                                                            ],
+                                                                            "children": [
+                                                                                {
+                                                                                    "id": "c99e344b722f1ba64fa70e6b66e412d9",
+                                                                                    "name": "empty-name-AXGenericElement",
+                                                                                    "role": "AXGenericElement",
+                                                                                    "description": "GRND",
+                                                                                    "role_description": "",
+                                                                                    "value": "Grindr Inc., NYSE · USD, 23,83, down 0,16 points",
+                                                                                    "absolute_position": "358.00;253.00",
+                                                                                    "position": "6.00;152.00",
+                                                                                    "size": "318;64",
+                                                                                    "enabled": true,
+                                                                                    "bbox": [
+                                                                                        6,
+                                                                                        152,
+                                                                                        324,
+                                                                                        216
+                                                                                    ],
+                                                                                    "visible_bbox": [
+                                                                                        6,
+                                                                                        152,
+                                                                                        324,
+                                                                                        216
+                                                                                    ],
+                                                                                    "children": []
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "551a552378620b37efe849ddbe17fe73",
+                                                                            "name": "empty-name-AXButton",
+                                                                            "role": "AXButton",
+                                                                            "description": "Tech Innovations Watchlist",
+                                                                            "role_description": "button",
+                                                                            "value": null,
+                                                                            "absolute_position": "362.00;211.00",
+                                                                            "position": "10.00;110.00",
+                                                                            "size": "220;31",
+                                                                            "enabled": true,
+                                                                            "bbox": [
+                                                                                10,
+                                                                                110,
+                                                                                230,
+                                                                                141
+                                                                            ],
+                                                                            "visible_bbox": [
+                                                                                10,
+                                                                                110,
+                                                                                230,
+                                                                                141
+                                                                            ],
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

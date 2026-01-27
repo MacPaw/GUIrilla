@@ -1,3 +1,5 @@
+[![MacPaw Research](https://pbs.twimg.com/profile_banners/3993798502/1720615716/1500x500)](https://research.macpaw.com)
+
 <h1>
   <img src="images/gorilla2.png" alt="Gorilla Logo" width="40">
   GUIrilla: A Scalable Framework for Automated Desktop UI Exploration

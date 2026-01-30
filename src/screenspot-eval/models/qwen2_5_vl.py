@@ -1,9 +1,12 @@
 import os
 import re
 import math
+import peft
 import torch
 from PIL import Image
 from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+
+from transformers.models.qwen2_vl.image_processing_qwen2_vl_fast import smart_resize
 
 class QwenModel:
     def __init__(self, model_name, base_model="Qwen/Qwen2.5-VL-7B-Instruct"):
@@ -15,21 +18,25 @@ class QwenModel:
             "temperature": 0.0,
             "max_new_tokens": 1024
         }
-        self.fixed_target_size = (1775, 962)
 
     def load_model(self):
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-            self.model_name,
-            torch_dtype="auto",
-            device_map="cuda:1",
+            self.base_model,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+            attn_implementation="flash_attention_2",
             trust_remote_code=True
-        )
+        ).eval()
         self.processor = AutoProcessor.from_pretrained(
-            self.model_name,
+            self.base_model,
             trust_remote_code=True,
             use_fast=True
         )
-        print(f"Loaded Qwen model: {self.model_name}")
+        print(f"Loaded Qwen model: {self.base_model}")
+
+        self.model = peft.PeftModel.from_pretrained(self.model, self.model_name)
+        self.model = self.model.merge_and_unload()
+        print(f"Loaded Qwen model: {self.base_model} with adapter: {self.model_name}")
 
     def set_generation_config(self, **kwargs):
         self.override_generation_config.update(kwargs)
@@ -45,35 +52,24 @@ class QwenModel:
             int(bbox[3] * scale_y)
         ]
 
-    def resize_to_fixed_then_qwen_style(self, image, bbox=None, resize_to_small=False, min_pixels=100 * 28 * 28, max_pixels=16384 * 28 * 28):
-        """Resize image to 1775×962, then apply Qwen-style resizing. Resize bbox too if given."""
-        orig_size = image.size
-        resized_bbox = bbox
+    def resize_qwen_style(self, image, bbox=None, resize_to_small=False, min_pixels=100 * 28 * 28, max_pixels=16384 * 28 * 28):
+        """Apply Qwen-style resizing."""
 
-        # Step 1: Resize to fixed target size
-        image = image.resize(self.fixed_target_size, resample=Image.BILINEAR)
-        if bbox:
-            resized_bbox = self._resize_bbox(resized_bbox, orig_size, self.fixed_target_size)
+        resized_height, resized_width = smart_resize(
+            image.height,
+            image.width,
+            factor=self.processor.image_processor.patch_size * self.processor.image_processor.merge_size,
+            min_pixels=self.processor.image_processor.min_pixels,
+            max_pixels=99999999,
+        )
+        print(f"Resized image size: {resized_width}x{resized_height}")
+        resized_image = image.resize((resized_width, resized_height))
 
-        # Step 2: Qwen-style resizing based on total pixel count
-        resize_factor = 1.0
-        curr_pixels = image.width * image.height
 
-        if curr_pixels > max_pixels:
-            resize_factor = math.sqrt(max_pixels / curr_pixels)
-        elif curr_pixels < min_pixels:
-            resize_factor = math.sqrt(min_pixels / curr_pixels)
+        if resized_image.mode != "RGB":
+            resized_image = resized_image.convert("RGB")
 
-        if resize_factor != 1.0:
-            new_size = (int(image.width * resize_factor), int(image.height * resize_factor))
-            image = image.resize(new_size, resample=Image.BILINEAR)
-            if resized_bbox:
-                resized_bbox = [int(coord * resize_factor) for coord in resized_bbox]
-
-        if image.mode != "RGB":
-            image = image.convert("RGB")
-
-        return image, resize_factor, resized_bbox
+        return resized_image, (resized_height, resized_width), bbox
 
     def _predict(self, task, image):
         conversation = [
@@ -105,7 +101,7 @@ class QwenModel:
             output_ids = self.model.generate(
                 **inputs,
                 max_new_tokens=self.override_generation_config.get("max_new_tokens", 1024),
-                num_beams=3,
+                num_beams=1,
                 do_sample=False,
                 temperature=None,
                 top_k=None,
@@ -135,34 +131,21 @@ class QwenModel:
             image_path = image
             assert os.path.exists(image_path) and os.path.isfile(image_path), "Invalid input image path."
             image = Image.open(image_path)
+
         assert isinstance(image, Image.Image), "Invalid input image."
-
-        original_width, original_height = image.size
-
+        
         # Resize both image and bbox (if provided)
-        resized_image, qwen_resize_factor, resized_bbox = self.resize_to_fixed_then_qwen_style(image, bbox=bbox)
+        resized_image, qwen_resize_factor, resized_bbox = self.resize_qwen_style(image, bbox=bbox)
 
         result_text = self._predict(instruction, resized_image)
         parsed_result = self._parse_output(result_text)
 
         if parsed_result['action'] == 'click':
-            pred_x = parsed_result['coordinates']['x']
-            pred_y = parsed_result['coordinates']['y']
+            pred_x = parsed_result['coordinates']['x'] / qwen_resize_factor[1]
+            pred_y = parsed_result['coordinates']['y'] / qwen_resize_factor[0]
 
-            # Undo Qwen resize
-            fixed_x = pred_x / qwen_resize_factor
-            fixed_y = pred_y / qwen_resize_factor
 
-            # Undo 1775×962 resize
-            scale_x = original_width / self.fixed_target_size[0]
-            scale_y = original_height / self.fixed_target_size[1]
-            orig_x = int(fixed_x * scale_x)
-            orig_y = int(fixed_y * scale_y)
-
-            norm_x = orig_x / original_width
-            norm_y = orig_y / original_height
-
-            point = [norm_x, norm_y]
+            point = [pred_x, pred_y]
         else:
             point = None
 

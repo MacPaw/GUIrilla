@@ -12,10 +12,18 @@ This repository contains the codebase for the paper **"GUIrilla: A Scalable Fram
 
 ---
 
+> **🔔 Updates (March 2026)**  
+> - 🎉 Our work has been accepted to the **3rd DATA-FM Workshop @ ICLR 2026 (Brazil)**.  
+> - We release **GUIrilla-Trees**, a large-scale dataset of accessibility trees for macOS applications, enabling research on structured UI understanding and agent interaction.  
+>   👉 https://huggingface.co/datasets/macpaw-research/GUIrilla-Trees
+
+---
+
 ## Dataset and models
 
 * [GUIrilla-Task dataset on HuggingFace](https://huggingface.co/datasets/macpaw-research/GUIrilla-Task).
 * [GUIrilla-Gold dataset on HuggingFace](https://huggingface.co/datasets/macpaw-research/GUIrilla-Gold).
+* [GUIrilla-Trees dataset on HuggingFace](https://huggingface.co/datasets/macpaw-research/GUIrilla-Trees)
 
 **Models:**
 * [GUIrilla-See-0.7B on HuggingFace](https://huggingface.co/macpaw-research/GUIrilla-See-0.7B).

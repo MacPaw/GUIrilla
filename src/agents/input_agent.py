@@ -25,7 +25,7 @@ def get_input_fields(xml_data, id_mapping, input_fields, request_count=0):
 
     try:
         response = client.chat.completions.create(
-            model="o3-mini",
+            model="gpt-5.6-sol",
             # model="gpt-4o-mini", doesn't handle this request well
             response_format={"type": "json_object"},
             messages=[
